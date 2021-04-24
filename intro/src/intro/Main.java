@@ -69,7 +69,7 @@ public class Main {
 		String sehir1="Ankara";
 		String sehir2="Ýstanbul";
 		sehir1 = sehir2;
-		sehir2=	"izmir";
+		sehir2=	"izmir"; 
 		System.out.println(sehir1);
 		
 		
