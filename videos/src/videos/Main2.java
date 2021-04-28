@@ -13,15 +13,15 @@ public class Main2 {
 //		customerManager2.Update();
 		
 		Product product=new Product();
-		product.name="tablet";
-		product.id=3;
-		product.description="samsung";
+		product.setName("tablet");
+		product.setId(3);
+		product.setDescription("samsung");
 		
 		
 		ProductManager productManager=new ProductManager( );
 		productManager.Add(product);
 		 
-		System.out.println(product.name);
+		System.out.println(product.getName());
 		
 		
 		
