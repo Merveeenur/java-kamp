@@ -15,7 +15,7 @@ public class Main2 {
 		Product product=new Product();
 		product.setName("tablet");
 		product.setId(3);
-		product.setDescription("samsung");
+		product.setDescription("samsung"); 
 		
 		
 		ProductManager productManager=new ProductManager( );
