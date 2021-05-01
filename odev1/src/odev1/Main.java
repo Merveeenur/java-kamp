@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Instructor instructor1=new Instructor( 1, "Engin","Demirog",3);
+		Instructor instructor1=new Instructor( 1,"Engin","Demirog",3);
 		
 		Course course1 =new Course(1,"Java + React Geliştirme", 0 , "Engin Demirog");
 		Course course2 =new Course(2,"C# + Angular Geliştirme", 0 , "Engin Demirog");
@@ -19,7 +19,7 @@ public class Main {
 		Student[] students = {student1,student2,student3,student4};
 		
 		 for (Student student : students) {
-			System.out.println(student.name + student.lastName+ " "+"Adlı öğrenci ; "+" " + student.courseName +" " +"Adlı dersi almıştır. " );
+			System.out.println(student.firstname + student.lastName+ " "+"Adlı öğrenci ; "+" " + student.courseName +" " +"Adlı dersi almıştır. " );
 		}
 
 		 System.out.println("\n**************************************\n");
@@ -38,6 +38,11 @@ public class Main {
 		
 		StudentManager studentManager =new StudentManager();
 		studentManager.deleteToStudent(student1);
+		
+		
+		
+		
+		
 	}
 
 }

@@ -2,6 +2,12 @@ package odev1;
 
 public class Course {
 	
+	String name;
+	int id;
+	double price;
+	String instructorname;
+	
+	
 	public Course() {
 		
 	}
@@ -14,10 +20,6 @@ public class Course {
 		this.instructorname=instructorname;
 	
 	}
-	String name;
-	int id;
-	double price;
-	String instructorname;
 	
 
 }

@@ -1,23 +1,29 @@
 package odev1;
 
 public class Instructor {
-	
-	
-	public Instructor() {
-		
-	}
-	public Instructor(int id,String name,String lastName,int nameOfCourse) {
-		this();
-		this.id=id;
-		this.lastName=lastName;
-		this.name=name;
-		this.nameOfCourse=nameOfCourse;
-	
-	}
-	
 	int id;
-	String name;
+	public Instructor(int id, String firstname, String lastName, int nameOfCourse) {
+		super();
+		this.id = id;
+		this.firstname = firstname;
+		this.lastName = lastName;
+		this.nameOfCourse = nameOfCourse;
+	}
+
+	String firstname;
 	String lastName;
 	int nameOfCourse;
+	
+	public Instructor() {}
+
+	
+
+	public int getNameOfCourse() {
+		return nameOfCourse;
+	}
+
+	public void setNameOfCourse(int nameOfCourse) {
+		this.nameOfCourse = nameOfCourse;
+	}
 	
 }
